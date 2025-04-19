@@ -15,7 +15,7 @@ def main():
     print ("2. Exit")
 
 
-    userInput = input("Enter your choice here: ")
+    userInput = input("Enter selection: ")
 
     if userInput == "1":
       print("\nThe AutoCountry sales manager has authorized the purchase and selling of the following vehicles:")
