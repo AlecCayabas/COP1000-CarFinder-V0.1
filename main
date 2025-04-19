@@ -18,12 +18,11 @@ def main():
     userInput = input("Enter your choice here: ")
 
     if userInput == "1":
-      print("The AutoCountry sales manager has authorized the purchase and selling of the following vehicles:")
+      print("\nThe AutoCountry sales manager has authorized the purchase and selling of the following vehicles:")
       for vehicle in allowedVehiclesList:
         print(vehicle)
-      print("********************************")
     elif userInput == "2":
-      print("Thank you for using the AutoCountry Vehicle Finder, good-bye!")
+      print("\nThank you for using the AutoCountry Vehicle Finder, good-bye!")
       break
 
 if __name__ == "__main__":
